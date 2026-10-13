@@ -1,3 +1,5 @@
+import UploadContent from "../component/UploadContent";
+
 export default function Home() {
   return (
     <div>
@@ -29,16 +31,6 @@ export default function Home() {
             <div className="col-span-2">
               <button type="button" className="text-white bg-[#558297] hover:bg-[#558297]/90 focus:ring-4 focus:outline-none focus:ring-[#558297]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#558297]/55 me-2 mb-2">
               Find Out More
-              <svg 
-              className="w-6 h-6 text-gray-800 dark:text-white left-2" 
-              aria-hidden="true" 
-              xmlns="http://www.w3.org/2000/svg" 
-              width="24" 
-              height="24" 
-              fill="none" 
-              viewBox="0 0 24 24">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/>
-              </svg>
               </button>
             </div>
           </div>
@@ -47,42 +39,34 @@ export default function Home() {
       {/* Hero Section */}
 
       {/* Special Memory */}
-      <div className="grid grid-cols-2 gap-4 w-full max-w-screen-xl px-6 mx-auto">
-        <div className="text-left text-[20px] font-extralight">
-          <h1>Because every second we pass is worth</h1>
-          <h1>remembering and celebrating, in warm colors</h1>
-          <h1>full of stories.</h1>
-          <div className="pt-4">
-            <button type="button" className="text-white bg-[#558297] hover:bg-[#558297]/90 focus:ring-4 focus:outline-none focus:ring-[#558297]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#558297]/55 me-2 mb-2">
-              Check Now !!
-              <svg 
-              className="w-6 h-6 text-gray-800 dark:text-white" 
-              aria-hidden="true" 
-              xmlns="http://www.w3.org/2000/svg" 
-              width="24" 
-              height="24" 
-              fill="none" 
-              viewBox="0 0 24 24">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/>
-              </svg>
-              </button>
-          </div>
+      <div className= "grid grid-cols-2 gap-4 w-full max-w-screen-xl px-6 mx-auto mt-40">
+        <div className="">
+          <div className="grid grid-cols-1 gap-y-6 w-full max-w-screen-xl px-6 mx-auto">
+            <div className="grid text-left text-[50px] font-bold">
+              <h1>Together we</h1>
+              <h1>color special times</h1>
+            </div>
+            <div className="text-left text-[20px] font-extralight">
+              <h1>Because every second we pass is worth remembering </h1>
+              <h1>and celebrating, in warm colors</h1>
+              <h1>full of stories.</h1>
+            </div>
+            <div>
+              <img src="/assets/bg10.jpg" alt="bg6" className="h-[350px] w-[700px] rounded-[30px] shadow-xl/20" />
+            </div>
+          </div> 
         </div>
-        <div className="col-start-2 text-right text-[60px] font-bold">
-          <h1>Together we</h1>
-          <h1>color special times</h1>
+        <div>
+          <img src="/assets/bg6.jpg" alt="bg6" className="h-[450px] w-[700px] rounded-[30px] shadow-xl/20" />
+          <img src="/assets/bg11.jpg" alt="bg6" className="h-[300px] w-[700px] rounded-[30px] shadow-xl/20 mt-15" />
         </div>
+        
       </div>
+      
       {/* Special Memory */}
 
-      {/* Special Memory Content */}
-      <div className="bg-[#DBA957] h-[600px] w-[1250px] p-10 mt-15 rounded-[30px] bg-cover bg-center mx-auto">
-
-      </div>
-      {/* Special Memory Content */}
-
       {/* Upload Content */}
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4 items-center justify-center mt-40">
         <div className="pt-10 mt-20 pl-13 ">
           <img src="/assets/bg5.jpeg" alt="bg5" className="h-[450px] w-[700px] rounded-[30px] shadow-xl/20" />
         </div>
@@ -102,16 +86,6 @@ export default function Home() {
           <div className="pt-4">
             <button type="button" className="text-white bg-[#558297] hover:bg-[#558297]/90 focus:ring-4 focus:outline-none focus:ring-[#558297]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#558297]/55 me-2 mb-2">
               Save Now !
-              <svg 
-              className="w-6 h-6 text-gray-800 dark:text-white" 
-              aria-hidden="true" 
-              xmlns="http://www.w3.org/2000/svg" 
-              width="24" 
-              height="24" 
-              fill="none" 
-              viewBox="0 0 24 24">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/>
-              </svg>
               </button>
           </div>
         </div>
@@ -119,7 +93,7 @@ export default function Home() {
       {/* Upload Content */}
 
       {/* List Memory */}
-      <div className="grid grid-cols-2 gap-4 w-full max-w-screen-xl px-6 mx-auto">
+      <div className="grid grid-cols-2 gap-4 w-full max-w-screen-xl px-6 mx-auto mt-40">
         <div className="pt-10 mt-20 text-[60px] font-bold text-left">
           <h1>Your Memory’s With</h1>
           <h1>MomentoBox</h1>
@@ -128,28 +102,13 @@ export default function Home() {
           <h1>a place where every memory is neatly </h1>
           <h1>stored, kept safe, and always ready to be </h1>
           <h1>remembered at any time</h1>
-          <div className="pt-4">
-            <button type="button" className="text-white bg-[#558297] hover:bg-[#558297]/90 focus:ring-4 focus:outline-none focus:ring-[#558297]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#558297]/55 me-2 mb-2">
-              Open Your Story
-              <svg 
-              className="w-6 h-6 text-gray-800 dark:text-white" 
-              aria-hidden="true" 
-              xmlns="http://www.w3.org/2000/svg" 
-              width="24" 
-              height="24" 
-              fill="none" 
-              viewBox="0 0 24 24">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/>
-              </svg>
-              </button>
-          </div>
         </div>
       </div>
       {/* List Memory */}
       
       {/* List Memory Content */}
-      <div className="p-10 mt-15 mx-auto">
-
+      <div className="p-10 mt-15 mx-auto mt-40">
+        <UploadContent />
       </div>
       {/* List Memory Content */}
     </div>

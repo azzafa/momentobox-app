@@ -5,7 +5,7 @@ const Header = () => {
         <div className="flex justify-center -mt-2 relative z-10">
             <nav className="bg-white shadow-xl/20 rounded-full p-4 w-5xl">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6">
-                    <img src="./assets/logo.png" alt="Logo" className="h-10" />
+                    <img src="/assets/logo.png" alt="Logo" className="h-10" />
                     <div className="item-center justify-between px-6 py-2">
                         <ul className="flex flex-col md:flex-row md:space-x-4 space-y-6 md:space-y-0">
                             <li>
@@ -13,9 +13,6 @@ const Header = () => {
                             </li>
                             <li>
                                 <a href="/" className="text-stone-950 hover:text-gray-900"> Galery </a>
-                            </li>
-                            <li>
-                                <a href="/" className="text-stone-950 hover:text-gray-900"> Special </a>
                             </li>
                         </ul>
                     </div>

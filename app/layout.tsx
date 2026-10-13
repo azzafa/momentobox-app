@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative `}
       >
-        <div className="bg-[url(/assets/bg4.png)] bg-cover bg-center absolute top-10 left-1/2 -translate-x-1/2 z-0 rounded-[30px] overflow-hidden w-[1250px] h-[500px]">
+        <div className="bg-[url(/assets/bg8.jpg)] bg-cover bg-center absolute top-10 left-1/2 -translate-x-1/2 z-0 rounded-[30px] overflow-hidden w-[1290px] h-[500px] shadow-xl/20">
         </div>
         <div className="relative z-10">
           <Header />
