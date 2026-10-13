@@ -104,6 +104,46 @@ export default function Home() {
           <h1>remembered at any time</h1>
         </div>
       </div>
+
+      <div className="grid grid-cols-4 gap-4 w-full max-w-screen-xl px-6 mx-auto mt-20">
+        <div className="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-[30px] shadow-xs">
+            <a href="#">
+                <img className="rounded-[30px]" src="/assets/bg17.jpg" alt="" />
+                <h5 className="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">Preparing for the Party</h5>
+                <p className="text-sm font-extralight ">May 13, 2026</p>
+                <p className="text-sm font-extralight ">Jorge's House</p>
+                <p className="mb-6 text-body">A group of friends working together to decorate an indoor room with festive Canadian flag bunting for an upcoming celebration.</p>
+            </a>
+        </div>
+        <div className="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-[30px] shadow-xs">
+            <a href="#">
+                <img className="rounded-[30px]" src="/assets/bg18.jpg" alt="" />
+                <h5 className="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">Festive Gathering at the Temple</h5>
+                <p className="text-sm font-extralight ">August 20, 2026</p>
+                <p className="text-sm font-extralight ">Temples in India</p>
+                <p className="mb-6 text-body">People gathering around an ornate temple decorated with orange marigold garlands and colorful festive flags under a bright blue sky.</p>
+            </a>
+        </div>
+        <div className="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-[30px] shadow-xs">
+            <a href="#">
+                <img className="rounded-[30px]" src="/assets/bg19.jpg" alt="" />
+                <h5 className="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">Setting the Dinner Table</h5>
+                <p className="text-sm font-extralight ">June 15, 2026</p>
+                <p className="text-sm font-extralight ">Catherine's Birthday Party</p>
+                <p className="mb-6 text-body">Family members and friends thoughtfully decorating and arranging greenery on a beautifully lit dining table for a warm holiday dinner.</p>
+            </a>
+        </div>
+        <div className="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-[30px] shadow-xs">
+            <a href="#">
+                <img className="rounded-[30px]" src="/assets/bg20.jpg" alt="" />
+                <h5 className="mt-6 mb-2 text-2xl font-semibold tracking-tight text-heading">Vibrant Street Celebration</h5>
+                <p className="text-sm font-extralight ">August 20, 2026</p>
+                <p className="text-sm font-extralight ">City Center</p>
+                <p className="mb-6 text-body">A bustling city street filled with pedestrians and motorbikes, beautifully shaded beneath hundreds of red celebratory flags hanging overhead.</p>
+            </a>
+        </div>
+      </div>
+
       {/* List Memory */}
       
       {/* List Memory Content */}
